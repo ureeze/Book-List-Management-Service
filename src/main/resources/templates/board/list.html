@@ -24,35 +24,58 @@
     <!-- Begin page content -->
     <main class="flex-shrink-0">
         <div class="container">
-            <h1 class="mt-5">게시판 제작</h1>
-            <!-- <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code
-                    class="small">main &gt; .container</code>.</p>  -->
+            <h2>게시판</h2>
+            <div>총 건수 : <span th:text="${boards.totalElements}"></span></div>
+            <form method="GET" th:action="@{/board/list}">
+                <div class="row g-3 align-items-center d-flex justify-content-end">
+                    <div class="col-auto">
+                        <input type="text" id="searchText" name="searchText" th:value="${param.searchText}"
+                            class="form-control">
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-light">Search</button>
+                    </div>
+                </div>
+            </form>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">번호</th>
+                        <th scope="col">제목</th>
+                        <th scope="col">작성자</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="board:${boards}">
+                        <td th:text="${board.getId()}">@</td>
+                        <td><a th:text="${board.getTitle()}" th:href="@{/board/form(id=${board.id})}"> Mark </a></td>
+                        <td>Otto</td>
+                    </tr>
+                </tbody>
+            </table>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item" th:classappend="${1 == boards.pageable.pageNumber+1} ? 'disabled'">
+                        <a class="page-link" href="#"
+                            th:href="@{/board/list(page=${boards.pageable.pageNumber-1}, searchText=${param.searchText})}"
+                            tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item" th:classappend="${i == boards.pageable.pageNumber+1} ? 'disabled'"
+                        th:each="i : ${#numbers.sequence(startPage,endPage)}"><a class="page-link" href="#"
+                            th:href="@{/board/list(page=${i-1}, searchText=${param.searchText})}" th:text=${i}>1</a>
+                    </li>
+                    <li class="page-item"
+                        th:classappend="${boards.totalPages == boards.pageable.pageNumber+1} ? 'disabled'">
+                        <a class="page-link" href="#"
+                            th:href="@{/board/list(page=${boards.pageable.pageNumber+1}, searchText=${param.searchText})}">Next</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="text-end">
+                <a type="button" class="btn btn-primary" th:href="@{/board/form}">쓰기</a>
+            </div>
         </div>
     </main>
-    <div class="container">
-        <h2>게시판</h2>
-        <div>총 건수 : <span th:text="${#lists.size(boards)}"></span></div>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">번호</th>
-                    <th scope="col">제목</th>
-                    <th scope="col">작성자</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr th:each="board:${boards}">
-                    <td th:text="${board.getId()}">@</td>
-                    <td th:text="${board.getTitle()}"> Mark </td>
-                    <td>Otto</td>
-                </tr>
-            </tbody>
-        </table>
-        <div class="text-end">
-            <button type="button" class="btn btn-primary">쓰기</button>
-        </div>
-    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 

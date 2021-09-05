@@ -22,6 +22,12 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'mysql:mysql-connector-java'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-hateoas
+    implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
