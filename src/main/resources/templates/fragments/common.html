@@ -13,7 +13,7 @@
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" th:href="@{/sticky-footer-navbar.css}" rel="stylesheet">
 
-    <title th:text="${title}">게시판</title>
+    <title th:text="${title}">도서 관리</title>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                             <a class="nav-link" th:classappend="${menu}=='home'? 'active'" href="#" th:href="@{/}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" th:classappend="${menu}=='board'? 'active'" href="#" th:href="@{/board/list}">게시판</a>
+                            <a class="nav-link" th:classappend="${menu}=='book'? 'active'" href="#" th:href="@{/book/list}">도서 관리</a>
                         </li>
                     </ul>
                 </div>

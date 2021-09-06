@@ -1,9 +1,9 @@
 package com.example.demo4.model;
 
 import lombok.Data;
-import lombok.Getter;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
+import org.springframework.hateoas.RepresentationModel;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,10 +11,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.time.LocalDateTime;
 
-@Entity
 @Data
-public class Board {
+@EqualsAndHashCode(callSuper = false)
+@NoArgsConstructor
+@Entity
+public class Book extends RepresentationModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,6 +26,10 @@ public class Board {
     @NotNull
     @Size(min = 2, max = 30)
     private String title;
-    private String content;
-
+    private String author;
+    private String publisher;
+    private Long isbn;
+    private String owner;
+    private LocalDateTime create_at;
+    private LocalDateTime update_at;
 }

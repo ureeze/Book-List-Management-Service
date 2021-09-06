@@ -17,7 +17,7 @@
 
 <body>
 
-    <header th:replace="fragments/common :: menu('board')">
+    <header th:replace="fragments/common :: menu('book')">
 
     </header>
 
@@ -25,7 +25,7 @@
     <main class="flex-shrink-0">
         <div class="container">
             <h2>게시판</h2>
-            <form action="#" th:action="@{/board/form}" th:object="${board}" method="post">
+            <form action="#" th:action="@{/book/form}" th:object="${book}" method="post">
                 <input type="hidden" th:field="*{id}">
                 <div class="mb-3">
                     <label for="title" class="form-label">제목</label>
@@ -35,14 +35,29 @@
                     </div>
                 </div>
                 <div class="mb-3">
-                    <label for="content" class="form-label">내용</label>
-                    <textarea class="form-control" id="content" th:classappend="${#fields.hasErrors('content')} ? 'is-invalid'" rows="3" th:field="*{content}"></textarea>
-                    <div class="invalid-feedback" th:if="${#fields.hasErrors('content')}" th:errors="*{content}">
-                        내용 에러 메시지
+                    <label for="author" class="form-label">저자</label>
+                    <input type="text" class="form-control" th:classappend="${#fields.hasErrors('author')} ? 'is-invalid'" id="author" th:field="*{author}">
+                    <div class="invalid-feedback" th:if="${#fields.hasErrors('author')}" th:errors="*{author}">
+                        저자 에러 메시지
                     </div>
                 </div>
+                <div class="mb-3">
+                    <label for="publisher" class="form-label">출판사</label>
+                    <input type="text" class="form-control" th:classappend="${#fields.hasErrors('publisher')} ? 'is-invalid'" id="publisher" th:field="*{publisher}">
+                    <div class="invalid-feedback" th:if="${#fields.hasErrors('publisher')}" th:errors="*{publisher}">
+                        출판사 에러 메시지
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="isbn" class="form-label">Isbn</label>
+                    <input type="text" class="form-control" th:classappend="${#fields.hasErrors('isbn')} ? 'is-invalid'" id="isbn" th:field="*{isbn}">
+                    <div class="invalid-feedback" th:if="${#fields.hasErrors('isbn')}" th:errors="*{isbn}">
+                        위치 에러 메시지
+                    </div>
+                </div>
+                                
                 <div class="text-end">
-                    <a type="button" class="btn btn-primary" th:href="@{/board/list}">취소</a>
+                    <a type="button" class="btn btn-primary" th:href="@{/book/list}">취소</a>
                     <button type="submit" class="btn btn-primary">확인</button>
                 </div>
             </form>
