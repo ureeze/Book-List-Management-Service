@@ -49,4 +49,4 @@
 ### PUT & DELETE
 ![REST PUT DELETE](https://user-images.githubusercontent.com/37195463/134795713-b96d924d-5887-4d89-8571-cda3ddd30392.png) 
 
-+ ResponseEntity 객체에 도서 데이터와 HttpStatus상태 그리고 링크정보를 담아 response
++ ResponseEntity 객체에 도서 데이터와 HttpStatus상태 그리고 링크정보를 담아 반환
