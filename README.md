@@ -35,4 +35,11 @@
 
 ## 5. RESTful API
 ![RESTAPI1](https://user-images.githubusercontent.com/37195463/132295056-57c696c3-6596-4b95-88db-a3264de064e2.png)
-![RESTAPI2](https://user-images.githubusercontent.com/37195463/132295058-119fadf4-4682-43f2-80d7-10e258f13dd4.png) 
+![RESTAPI2](https://user-images.githubusercontent.com/37195463/132295058-119fadf4-4682-43f2-80d7-10e258f13dd4.png)
+
+![REST GET ONE](https://user-images.githubusercontent.com/37195463/134795714-d1b82496-cdfe-4c0c-a433-4896335db840.png) 
+![REST GET LIST](https://user-images.githubusercontent.com/37195463/134795711-f566d2ac-15c9-4013-9c9c-11740e056c2b.png)
+![REST POST](https://user-images.githubusercontent.com/37195463/134795710-f78ea155-1c4c-4289-8bdc-1ebd053ae0c2.png)
+![REST PUT DELETE](https://user-images.githubusercontent.com/37195463/134795713-b96d924d-5887-4d89-8571-cda3ddd30392.png) 
+
++ ResponseEntity 객체에 도서데이터와 HttpStatus상태 그리고 링크정보를 담아 response
