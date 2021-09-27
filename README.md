@@ -27,13 +27,13 @@
 
 
 ## 2. 도서 등록
-![도서 등록](https://user-images.githubusercontent.com/37195463/134794972-eaee9c36-0720-40ab-bbef-1154737f8ca6.png)
+![도서 등록](https://user-images.githubusercontent.com/37195463/134949428-662c41d5-a026-4e3e-b460-0f8399c9ede1.png)
 
 ## 3. 도서 상세정보
-![도서 상세정보](https://user-images.githubusercontent.com/37195463/134794971-afd7123d-0bae-4117-8cbe-3f82b970cee7.png)
+![도서 상세정보](https://user-images.githubusercontent.com/37195463/134949431-31ad4127-29ce-4379-9a71-a8027d0da895.png)
 
 ## 4. 도서 검색
-![도서 검색](https://user-images.githubusercontent.com/37195463/134794973-21e1e325-2dd8-42f7-8f02-d890c956d885.png)
+![도서 검색](https://user-images.githubusercontent.com/37195463/134949424-8fbefbed-7665-4de4-9c13-3dc41ee374a6.png)
 
 ## 5. RESTful API
 ![RESTAPI1](https://user-images.githubusercontent.com/37195463/132295056-57c696c3-6596-4b95-88db-a3264de064e2.png)
