@@ -1,6 +1,6 @@
 ## 도서목록 관리 RESTFUL API 설계
 
-### 도서 목록 관리를 위해  RESTful API 구현
+> 도서 목록 관리를 위해  RESTful API 구현
 
 + 도서 데이터 조회, 추가, 삭제, 수정 기능 구현
 + API Swagger를 이용하여 URL 리스트를 문서로 자동화
