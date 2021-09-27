@@ -27,16 +27,16 @@
 
 
 ## 2. 도서 등록
-![도서 등록](https://user-images.githubusercontent.com/37195463/134949428-662c41d5-a026-4e3e-b460-0f8399c9ede1.png)
+![도서 등록](https://user-images.githubusercontent.com/37195463/134950275-f42f56c9-a27f-46b1-b7a9-5ca7b3aa99d5.png)
 
 ## 3. 도서 상세정보
-![도서 상세정보](https://user-images.githubusercontent.com/37195463/134949431-31ad4127-29ce-4379-9a71-a8027d0da895.png)
+![도서 상세정보](https://user-images.githubusercontent.com/37195463/134950277-d7f61f23-6d2b-47bd-876c-742ce535b041.png)
 
 ## 4. 도서 검색
-![도서 검색](https://user-images.githubusercontent.com/37195463/134949424-8fbefbed-7665-4de4-9c13-3dc41ee374a6.png)
+![도서 검색](https://user-images.githubusercontent.com/37195463/134950273-c15e85e4-f4ef-40a5-9e23-042b9c5bc427.png)
 
 ## 5. RESTful API
-![RESTAPI1](https://user-images.githubusercontent.com/37195463/132295056-57c696c3-6596-4b95-88db-a3264de064e2.png)
+![RESTAPI1](https://user-images.githubusercontent.com/37195463/134950271-3fa0c993-945f-40b5-a356-19c2178fb4d3.png)
 ![RESTAPI2](https://user-images.githubusercontent.com/37195463/132295058-119fadf4-4682-43f2-80d7-10e258f13dd4.png)
 
 ## GET
