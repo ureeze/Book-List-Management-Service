@@ -2,6 +2,11 @@
 
 > 도서 목록 관리를 위해  RESTful API 구현
 
+
+## 1. 도서목록
+![book list](https://user-images.githubusercontent.com/37195463/133755482-38c9ba86-b0a1-45f6-bd4b-3cccd753a3b7.png)
+
+## 주요내용
 + 도서 데이터 조회, 추가, 삭제, 수정 기능 구현
 + API Swagger를 이용하여 URL 리스트를 문서로 자동화
 + 다양한 클라이언트 환경에서 통신을 할 수 있어야 하므로 이러한 멀티 플랫폼에 대한 지원을 위해 도서목록 관리 서비스를 RESTful API로 설계
@@ -20,9 +25,6 @@
 > Lombok  
 > Hateoas  
 
-
-## 1. 도서목록
-![book list](https://user-images.githubusercontent.com/37195463/133755482-38c9ba86-b0a1-45f6-bd4b-3cccd753a3b7.png)
 
 ## 2. 도서 등록
 ![도서 등록](https://user-images.githubusercontent.com/37195463/134794972-eaee9c36-0720-40ab-bbef-1154737f8ca6.png)
