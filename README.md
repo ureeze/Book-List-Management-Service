@@ -1,13 +1,13 @@
 # 도서목록 관리 RESTFUL API 설계
 
-> 도서 목록 관리를 위해  RESTful API 구현
+> 도서 목록 관리를 위해 RESTful API 구현
 
 
 ## 1. 도서목록
 ![book list](https://user-images.githubusercontent.com/37195463/133755482-38c9ba86-b0a1-45f6-bd4b-3cccd753a3b7.png)
 
 ## 주요내용
-+ 도서 데이터 조회, 추가, 삭제, 수정 기능 구현
++ 도서 데이터 조회, 추가, 삭제, 수정 기능 구현 및 JSON 타입으로 Response
 + API Swagger를 이용하여 URL 리스트를 문서로 자동화
 + 다양한 클라이언트 환경에서 통신을 할 수 있어야 하므로 이러한 멀티 플랫폼에 대한 지원을 위해 도서목록 관리 서비스를 RESTful API로 설계
 + HATEOAS를 통해 관련된 자원의 링크정보를 제공
@@ -36,7 +36,10 @@
 ![도서 검색](https://user-images.githubusercontent.com/37195463/134950273-c15e85e4-f4ef-40a5-9e23-042b9c5bc427.png)
 
 ## 5. RESTful API
++ API Swagger를 이용하여 URL 리스트를 문서로 자동화
 ![RESTAPI1](https://user-images.githubusercontent.com/37195463/134950271-3fa0c993-945f-40b5-a356-19c2178fb4d3.png)
+
++ JSON 타입으로 Response
 ![RESTAPI2](https://user-images.githubusercontent.com/37195463/132295058-119fadf4-4682-43f2-80d7-10e258f13dd4.png)
 
 ## GET
