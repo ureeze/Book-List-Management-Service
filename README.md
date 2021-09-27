@@ -8,9 +8,9 @@
 + HATEOAS를 통해 관련된 자원의 링크정보를 제공
 
 
-### 사용언어
-+ HTML/CSS
+### 사용 언어
 + JAVA 8
++ HTML/CSS
 
 ### 사용 라이브러리 및 프레임워크
 + Spring Boot 2.5.2
