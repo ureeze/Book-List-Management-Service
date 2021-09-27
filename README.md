@@ -1,4 +1,4 @@
-## 도서목록 관리 RESTFUL API 설계
+# 도서목록 관리 RESTFUL API 설계
 
 > 도서 목록 관리를 위해  RESTful API 구현
 
@@ -8,17 +8,17 @@
 + HATEOAS를 통해 관련된 자원의 링크정보를 제공
 
 
-### 사용 언어
-+ JAVA 8
-+ HTML/CSS
+## 사용 언어
+> JAVA 8  
+> HTML/CSS
 
-### 사용 라이브러리 및 프레임워크
-+ Spring Boot 2.5.2
-+ Spring Data JPA
-+ MySQL
-+ ThymeLeaf
-+ Lombok
-+ Hateoas
+## 사용 라이브러리 및 프레임워크
+> Spring Boot 2.5.2  
+> Spring Data JPA  
+> MySQL  
+> ThymeLeaf  
+> Lombok  
+> Hateoas  
 
 
 ## 1. 도서목록
