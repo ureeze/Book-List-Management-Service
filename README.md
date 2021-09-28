@@ -37,21 +37,35 @@
 
 ## 5. RESTful API
 + API Swagger를 이용하여 URL 리스트를 문서로 자동화
+
 ![RESTAPI1](https://user-images.githubusercontent.com/37195463/134950271-3fa0c993-945f-40b5-a356-19c2178fb4d3.png)
 
 + JSON 타입으로 Response
+
 ![RESTAPI2](https://user-images.githubusercontent.com/37195463/132295058-119fadf4-4682-43f2-80d7-10e258f13dd4.png)
 
 ## GET
+> ResponseEntity 객체에 self 링크정보가 추가된 book 인스턴스와 HttpStatus.OK 를 담아 반환
+
 ![REST GET ONE](https://user-images.githubusercontent.com/37195463/134795714-d1b82496-cdfe-4c0c-a433-4896335db840.png) 
+
+> ResponseEntity 객체의 body부분에 books 리스트의 CollectionModel이 담기고 추가적으로 HttpStatus.OK 와 전체링크경로가 담긴다.
+
 ![REST GET LIST](https://user-images.githubusercontent.com/37195463/134795711-f566d2ac-15c9-4013-9c9c-11740e056c2b.png)
  
 
 ## POST
+> ResponseEntity 객체에 self 링크정보가 추가된 newbook 인스턴스와 HttpStatus.CREATED 를 담아 반환
+
 ![REST POST](https://user-images.githubusercontent.com/37195463/134795710-f78ea155-1c4c-4289-8bdc-1ebd053ae0c2.png)
  
 
-## PUT & DELETE
-> ResponseEntity 객체에 도서 데이터와 HttpStatus상태 그리고 링크정보를 담아 반환
+## PUT
+> ResponseEntity 객체에 self 링크정보가 포함된 book 인스턴스와 HttpStatus.OK 를 담아 반환
 
-![REST PUT DELETE](https://user-images.githubusercontent.com/37195463/134795713-b96d924d-5887-4d89-8571-cda3ddd30392.png) 
+![REST PUT](https://user-images.githubusercontent.com/37195463/135095317-aba03b72-772a-409e-aa18-667c729b9e80.png)
+
+## DELETE
+> ResponseEntity 객체에 수정된 book 인스턴스와 HttpStatus.OK 그리고 링크정보를 담아 반환
+
+![REST DELETE](https://user-images.githubusercontent.com/37195463/135095322-d9184cbf-e04c-49ac-b62a-2a7d750b5ff7.png)
