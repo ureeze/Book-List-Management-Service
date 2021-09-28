@@ -4,7 +4,7 @@
 
 
 ## 1. 도서목록
-![book list](https://user-images.githubusercontent.com/37195463/133755482-38c9ba86-b0a1-45f6-bd4b-3cccd753a3b7.png)
+![book list](https://user-images.githubusercontent.com/37195463/135093257-a3904c57-2628-463e-8d45-479a35555c96.png)
 
 ## 주요내용
 + 도서 데이터 조회, 추가, 삭제, 수정 기능 구현 및 JSON 타입으로 Response
