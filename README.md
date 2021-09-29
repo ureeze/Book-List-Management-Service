@@ -17,10 +17,12 @@
 > JAVA 8  
 > HTML/CSS
 
+## 데이터베이스
+> MySQL
+
 ## 사용 라이브러리 및 프레임워크
 > Spring Boot 2.5.2  
-> Spring Data JPA  
-> MySQL  
+> Spring Data JPA   
 > ThymeLeaf  
 > Lombok  
 > Hateoas  
