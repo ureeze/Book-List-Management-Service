@@ -4,7 +4,7 @@
 
 
 ## 1. 도서목록
-![book list](https://user-images.githubusercontent.com/37195463/135093257-a3904c57-2628-463e-8d45-479a35555c96.png)
+![리스트](https://user-images.githubusercontent.com/37195463/136020252-be45c210-e90f-4540-823d-1c3aedefe9dc.png)
 
 ## 주요내용
 + 도서 데이터 조회, 추가, 삭제, 수정 기능 구현 및 JSON 타입으로 Response
@@ -35,7 +35,7 @@
 ![도서 상세정보](https://user-images.githubusercontent.com/37195463/134950277-d7f61f23-6d2b-47bd-876c-742ce535b041.png)
 
 ## 4. 도서 검색
-![도서 검색](https://user-images.githubusercontent.com/37195463/134950273-c15e85e4-f4ef-40a5-9e23-042b9c5bc427.png)
+![검색](https://user-images.githubusercontent.com/37195463/136020247-97e1d022-8e01-4325-9bc9-bee375652170.png)
 
 ## 5. RESTful API
 + API Swagger를 이용하여 URL 리스트를 문서로 자동화
